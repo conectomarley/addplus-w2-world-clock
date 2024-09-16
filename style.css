@@ -34,3 +34,11 @@ select {
   padding: 10px 10px;
   border-radius: 10px;
 }
+
+cities {
+  font-family: "roboto", sans-serif;
+  color: #4c9173;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
