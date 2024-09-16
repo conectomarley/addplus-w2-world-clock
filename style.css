@@ -22,7 +22,8 @@ h2 {
   background: #ddeedf;
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   border-radius: 16px;
   padding: 30px;
 }
@@ -39,10 +40,13 @@ select {
 }
 
 .cities {
-  font-family: sans-serif;
   display: flex;
+  margin: 10px 0;
+  font-family: sans-serif;
   justify-content: space-between;
   color: #57385c;
+  border-bottom: 1px dotted gray;
+  padding: 25px 0;
 }
 
 .time {
@@ -51,6 +55,7 @@ select {
 }
 
 .date {
+  font-family: sans-serif;
   opacity: 0.7;
 }
 
