@@ -35,10 +35,9 @@ select {
   border-radius: 10px;
 }
 
-cities {
+.cities {
   font-family: "roboto", sans-serif;
-  color: #4c9173;
-  font-size: 18px;
+  color: grey;
+  font-size: 14px;
   font-weight: normal;
-  text-align: center;
 }
