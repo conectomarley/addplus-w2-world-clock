@@ -25,3 +25,12 @@ footer {
   text-align: center;
   color: #606470;
 }
+
+select {
+  font-size: 16px;
+  background: grey;
+  color: white;
+  border: 0;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
