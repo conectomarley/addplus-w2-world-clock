@@ -4,14 +4,21 @@ body {
 }
 
 h1 {
-  font-family: "roboto", sans-serif;
-  color: #4c9173;
-  font-size: 18px;
-  font-weight: normal;
+  font-family: sans-serif;
+  color: #57385c;
+  font-size: 28px;
   text-align: center;
 }
 
+h2 {
+  margin: 0 0 5px;
+  font-family: "roboto", sans-serif;
+  color: #57385c;
+  font-size: 24px;
+}
+
 .container {
+  font-family: "roboto", sans-serif;
   background: #ddeedf;
   max-width: 600px;
   margin: 45px auto;
@@ -20,24 +27,35 @@ h1 {
   padding: 30px;
 }
 
-footer {
-  font-size: 12px;
-  text-align: center;
-  color: #606470;
-}
-
 select {
-  font-size: 14px;
-  background: grey;
-  color: white;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  background: #d3d6db;
+  color: #57385c;
   border: 0;
   padding: 10px 10px;
   border-radius: 10px;
 }
 
 .cities {
-  font-family: "roboto", sans-serif;
-  color: grey;
-  font-size: 14px;
-  font-weight: normal;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  color: #57385c;
+}
+
+.time {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.date {
+  opacity: 0.7;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: #606470;
 }
