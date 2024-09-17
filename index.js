@@ -4,4 +4,6 @@ let saoPauloTimeElement = saoPauloElement.querySelector(".time");
 let saoPauloTime = moment().tz("America/Sao_Paulo");
 
 saoPauloDateElement.innerHTML = saoPauloTime.format("MMMM Do YYYY");
-saoPauloTimeElement.innerHTML = "h:mm:ss [<small>A</small>]";
+saoPauloTimeElement.innerHTML = saoPauloTime.format(
+  "h:mm:ss [<small>]A[</small>]"
+);
