@@ -1,3 +1,3 @@
 let saoPauloElement = document.querySelector("#sao-paulo");
-
-saoPauloElement.innerHTML = "hey";
+let saoPauloDateElement = document.querySelector("#sao-paulo.date");
+saoPauloDateElement.innerHTML = "hey";
