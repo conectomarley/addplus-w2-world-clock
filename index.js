@@ -1,7 +1,7 @@
 let saoPauloElement = document.querySelector("#sao-paulo");
 let saoPauloDateElement = saoPauloElement.querySelector(".date");
 let saoPauloTimeElement = saoPauloElement.querySelector(".time");
-let saoPauloTime = moment();
+let saoPauloTime = moment().tz("America/Sao_Paulo");
 
 saoPauloDateElement.innerHTML = saoPauloTime.format("MMMM Do YYYY");
-saoPauloTimeElement.innerHTML = "6:57:25 <small>PM</small>";
+saoPauloTimeElement.innerHTML = "h:mm:ss [<small>A</small>]";
