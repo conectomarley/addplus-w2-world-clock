@@ -5,13 +5,14 @@ body {
 
 h1 {
   font-family: sans-serif;
-  color: #57385c;
-  font-size: 28px;
+  color: #430f58;
+  font-size: 38px;
   text-align: center;
 }
 
 h2,
-h3 {
+h3,
+h4 {
   margin: 0 0 5px;
   font-family: "roboto", sans-serif;
   color: #57385c;
@@ -56,12 +57,13 @@ select {
 }
 
 .date {
+  color: #2c786c;
   font-family: sans-serif;
   opacity: 0.7;
 }
 
 footer {
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   color: #606470;
 }

@@ -21,3 +21,13 @@ setInterval(function () {
     "h:mm:ss [<small>]A[</small>]"
   );
 }, 1000);
+
+setInterval(function () {
+  let baliElement = document.querySelector("#bali");
+  let baliDateElement = baliElement.querySelector(".date");
+  let baliTimeElement = baliElement.querySelector(".time");
+  let baliTime = moment().tz("Asia/Makassar");
+
+  baliDateElement.innerHTML = baliTime.format("dddd, MMMM Do YYYY");
+  baliTimeElement.innerHTML = baliTime.format("h:mm:ss [<small>]A[</small>]");
+}, 1000);
