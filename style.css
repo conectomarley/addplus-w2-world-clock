@@ -10,7 +10,8 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h2,
+h3 {
   margin: 0 0 5px;
   font-family: "roboto", sans-serif;
   color: #57385c;
@@ -39,18 +40,18 @@ select {
   border-radius: 10px;
 }
 
-.cities {
+.city {
   display: flex;
   margin: 10px 0;
   font-family: sans-serif;
   justify-content: space-between;
   color: #57385c;
-  border-bottom: 1px dotted gray;
+  border-bottom: 1px dotted #a7bcb9;
   padding: 25px 0;
 }
 
 .time {
-  font-size: 24px;
+  font-size: 38px;
   font-weight: bold;
 }
 

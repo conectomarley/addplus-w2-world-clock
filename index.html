@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone.min.jss"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data.min.js"></script>
+
     <title>World Clock Project</title>
   </head>
   <body>
@@ -19,35 +21,37 @@
         <option value="">Montreal 🇨🇦</option>
       </select>
       <p></p>
-      <div id="city">
-        <div class="cities" id="sao-paulo">
+      <div id="cities">
+        <div class="city" id="sao-paulo">
           <div>
             <h2>São Paulo 🇧🇷</h2>
             <div class="date"></div>
           </div>
           <div class="time"></div>
         </div>
-        <div class="cities" id="sydney">
+        <p></p>
+        <div class="city" id="sydney">
           <div>
-            <h2>Sydney 🇦🇺</h2>
-            <div class="date">September 15th 2024</div>
+            <h3>Sydney 🇦🇺</h3>
+            <div class="date"></div>
           </div>
-          <div class="time">04:45:27 <small>PM</small></div>
+          <div class="time"></div>
         </div>
       </div>
-      <p></p>
-
-      <footer>
-        This project was coded with 🖤 by <strong>Luana Marley</strong> and is
-        open source on
-        <a
-          href="https://github.com/conectomarley/addplus-w2-world-clock"
-          target="_blank"
-        >
-          GitHub</a
-        >
-      </footer>
-      <script src="index.js"></script>
     </div>
+    <p></p>
+
+    <footer>
+      This project was coded with 🖤 by <strong>Luana Marley</strong> and is
+      open source on
+      <a
+        href="https://github.com/conectomarley/addplus-w2-world-clock"
+        target="_blank"
+      >
+        GitHub</a
+      >
+    </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
