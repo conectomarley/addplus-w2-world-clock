@@ -15,13 +15,13 @@ h3,
 h4 {
   margin: 0 0 5px;
   font-family: "roboto", sans-serif;
-  color: #57385c;
+  color: black;
   font-size: 24px;
 }
 
 .container {
   font-family: "roboto", sans-serif;
-  background: #ddeedf;
+  background: #f5f5f1d0;
   max-width: 600px;
   margin: 45px auto;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
@@ -46,7 +46,7 @@ select {
   margin: 10px 0;
   font-family: sans-serif;
   justify-content: space-between;
-  color: #57385c;
+  color: black;
   border-bottom: 1px dotted #a7bcb9;
   padding: 25px 0;
 }
@@ -61,7 +61,7 @@ select {
 }
 
 .date {
-  color: #2c786c;
+  color: black;
   font-family: sans-serif;
   opacity: 0.7;
 }
